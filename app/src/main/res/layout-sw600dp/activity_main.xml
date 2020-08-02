@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="897dp"
+        android:layout_height="1408dp"
+        app:srcCompat="@drawable/marcianito_android"
+        tools:layout_editor_absoluteX="-162dp"
+        tools:layout_editor_absoluteY="-316dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="111dp"
+        android:layout_height="62dp"
+        android:text="@string/Entrar_app"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido_app"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
