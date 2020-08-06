@@ -6,30 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="134dp"
-        android:layout_height="56dp"
-        android:text="@string/Entrar_app"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="254dp" />
-
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="733dp"
-        android:layout_height="1409dp"
+        android:id="@+id/imageView3"
+        android:layout_width="807dp"
+        android:layout_height="1297dp"
         app:srcCompat="@drawable/marcianito_android"
-        tools:layout_editor_absoluteX="-174dp"
-        tools:layout_editor_absoluteY="-398dp" />
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-446dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="111dp"
+        android:layout_height="62dp"
+        android:text="@string/Entrar_app"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="140dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bienvenido_app"
         android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="85dp" />
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="44dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
